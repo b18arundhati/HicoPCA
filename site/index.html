@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>HICO Data Analyzer</title>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Lato" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+	<header>
+
+		<h1 id="heading" style="margin-bottom:0px;">HICO Data Analyzer</h1>
+		<h4 class="semitransparent" style="margin-top:0px">Hyperspectral Imager for the Coastal Ocean</h4>
+	</header>
+
+	<div class="options pointer" >
+		<!-- <p style="margin-bottom: 0px;">File: </p> -->
+		<form id="fileChooser" title="Upload image.hico.hdr file">
+			Upload the HICO file:  <input type="file" id="hicoHeaderChooser"></input>
+		</form>
+		<hr>
+		<div class="buttons">
+			<button id="filesetInfoBtn">Information</button>
+			<button id="pcaBtn">Principal components analysis</button>
+		</div>
+	</div>
+
+	<footer> Image credit: EUMETSAT</footer>
+</body>
+</html>
